@@ -1,0 +1,171 @@
+body{
+	background-color: rgba(220,240,255,1);
+}
+.title{
+	background-color: rgba(170,220,240,1);
+	border-radius: 20px;
+    color: rgb(15,37,64);
+	font-family: 'Raleway', sans-serif;
+	font-size: 300%;
+	letter-spacing: 3px;
+	margin: auto;
+	margin-bottom: 30px; 
+	padding: 10px 0;
+	text-align: center;
+	width: 90%;
+}
+.content{
+	font-family: Microsoft JhengHei,sans-serif;
+	font-size: 150%;
+	text-align: center;
+}
+/* register page */
+.register .content table{
+    border-collapse: collapse;
+    font-weight: 400;
+    margin: auto;
+    text-align: left;
+}
+.register .content table th{
+    padding: 3px;
+}
+.register .content table .required{
+    line-height: 5px;
+}
+.register .content table span{
+    color: rgb(240,10,10);
+    font-size: 50%;
+}
+/* log in page */
+.bef_login .content table,tr,th,td{
+    border-collapse: collapse;
+    font-weight: 400;
+    margin: auto;
+    text-align: left;
+}
+.bef_login .content table th{
+    padding: 4px;
+}
+/* after log in. user page & admin page */
+.aft_login .content table,tr,th{
+    font-weight: 400;
+    margin: auto;
+    padding: 9px 10px;
+    text-align: left;
+}
+.aft_login .content table{
+    border-collapse: collapse;
+    margin-top: 40px;
+    width: 80vw;
+}
+.aft_login .content table .caption{
+    background-color: rgba(90,170,200,1);
+    color: rgb(255,255,255);
+    letter-spacing: 0.7px;
+}
+.aft_login .content table .caption .begin{
+    border-top-left-radius: 10px;
+}
+.aft_login .content table .caption .end{
+    border-top-right-radius: 10px;
+}
+.aft_login .content table .caption .middle,.end{
+    border-left: 4px rgba(220,240,255,1) solid;
+}
+.aft_login .content table .data{
+    background-color: rgba(255,255,255,1);
+    border-top: 4px rgba(220,240,255,1) solid;
+    border-bottom: 4px rgba(220,240,255,1) solid;
+    color: rgb(15,37,64);
+}
+.aft_login .content table .data .middle,.end{
+    border-left: 4px rgba(220,240,255,1) solid;
+}
+.aft_login .content table .admin{
+    background-color: rgba(229,207,184,1);
+    border-top: 4px rgba(220,240,255,1) solid;
+    background-color: hsl(31,100%,85%);
+    border-bottom: 4px rgba(220,240,255,1) solid;
+    color: rgb(15,37,64);
+}
+.aft_login .content table .admin .middle,.end{
+    border-left: 4px rgba(220,240,255,1) solid;
+}
+/* select tag style */
+select{
+	border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 70%;
+    padding: 5px 5px;
+    width: 212px;
+    margin: 5px;
+}
+/* input tag style */
+input{
+    vertical-align: top;
+    font-size: 70%;
+}
+input[type=text],[type=password]{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 200px;
+    margin: 5px;
+}
+input[type=submit]{
+    background-color: rgb(50,130,150);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    margin: 40px 0 5px;
+    padding: 14px 20px;
+    width: 20%;
+}
+input[type=submit]:hover {
+    background-color: rgb(40,100,100);
+}
+.modify{
+	text-align: center;
+}
+.modify #promote[type=submit],[type=hidden]{
+	background-color: rgb(30,200,30);
+	font-size: 70%;
+	margin: auto;
+	padding: 6px 4px;
+	width: 70px;
+}
+.modify #promote[type=submit]:hover {
+    background-color: rgb(100,230,100);
+}
+.modify #demote[type=submit],[type=hidden]{
+	background-color: rgb(30,200,30);
+	font-size: 70%;
+	margin: auto;
+	padding: 6px 4px;
+	width: 70px;
+}
+.modify #demote[type=submit]:hover {
+    background-color: rgb(100,230,100);
+}
+.modify #delete[type=submit],[type=hidden]{
+	background-color: rgb(200,30,30);
+	font-size: 70%;
+	margin: auto;
+	padding: 6px 4px;
+	width: 70px;
+}
+.modify #delete[type=submit]:hover {
+    background-color: rgb(255,100,100);
+}
+p{
+    font-size: 80%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: rgba(200,200,200,0.3);
+    border-radius: 10px;
+    padding: 6px;
+}
